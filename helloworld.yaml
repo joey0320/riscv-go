@@ -1,0 +1,6 @@
+{
+  "name" : "helloworld",
+  "base" : "br-base.json",
+  "files" : [["helloworld", "/root/helloworld"]],
+  "guest-init" : "run.sh"
+}
