@@ -1,2 +1,4 @@
 
 helloworld/helloworld
+webapp/main.x86
+webapp/marshal-overlay/main.riscv

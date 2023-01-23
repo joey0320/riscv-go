@@ -1,0 +1,6 @@
+{
+  "name" : "webapp",
+  "base" : "br-base.json",
+  "overlay" : "marshal-overlay",
+  "guest-init" : "run.sh"
+}
