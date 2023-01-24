@@ -1,5 +1,7 @@
 #!/bin/bash
 
+curl
+
 ./main.riscv &
 curl localhost:8080
 curl localhost:8080/bird

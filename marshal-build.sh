@@ -16,6 +16,8 @@ function marshal_build {
     exit 1
   fi
 
+  unset MARSHAL_BOARD_DIR
+
   set_ulimit
 
   conda run -p ${CONDA} ${MARSHAL} build $1.yaml
